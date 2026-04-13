@@ -1,0 +1,253 @@
+body{
+    height: 90vh;
+    width: 99vw;
+    background-color: black;
+    background-image: url(/assets/bg/ФОН.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 90vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather{   
+    width: 700px;
+    height: 850px;
+    background-color: rgba(255, 255, 255, 0.2);    
+    backdrop-filter: blur(25px);
+    border-radius: 30px;
+}
+
+.weather-top{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    /* padding: 1px,2px,3px,4px; */
+}
+
+.weather-top__name{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.weather-top__temp{
+    height: 150px;
+}
+
+.numbers-celsius{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 125px;
+    margin-top: 50px;
+}
+
+.number{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 100px;
+}
+
+.celsius{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    font-size: 100px;
+    color: #ffff;
+}
+
+.point{
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    color: #ffff;
+    font-family: none;
+    margin-bottom: 50px;
+}
+
+.weather-top__text{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+}
+
+.weather-bottom__timeline{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+.weather-bottom__timeline:first-child{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color: #fff;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.icons{ 
+    width: 60px;
+    height: 60px;
+}
+
+.timeline-celsius{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.timeline-vector{
+    padding-bottom: 25px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 590px;
+}
+
+.details-text{
+    padding-left: 55px;
+}
+
+.details-grafic{
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grafic-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.left-icons{
+    height: 37px;
+}
+
+.left-time{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.grafic-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.grafic-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+.right-icons{
+    /* height: 37px; */
+    width: 50px;
+}
+.right-time{
+    font-size: 20px;
+}
+
+.details-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.details-info:last-child{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.realfeel-celsius{
+    position: relative;
+}
+
+
+.info-realfeel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-procent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-force{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-pressure{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.realfeel-vector{
+    position: absolute;
+    right: 18px;
+    padding-bottom: 20px;
+}
+
+.realfeel-text{
+    font-size: 15px;
+    color: #B7B7B7;
+}
+.procent-text{
+    font-size: 15px;
+    color: #B7B7B7;
+}
+.force-text{
+    font-size: 15px;
+    color: #B7B7B7;
+}
+.pressure-text{
+    font-size: 15px;
+    color: #B7B7B7;
+}

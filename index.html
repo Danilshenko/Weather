@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Weather App Widget</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <div class="weather-container">
+                <div class="weather-top">
+                    <div class="weather-top__block">
+                        <h1 class="weather-top__name" id="names">Bengaluru</h1>
+                        <div class="weather-top__temp">
+                            <nav class="numbers-celsius">
+                            <span class="number">20</span>
+                                <img class="point" src="/assets/icons/svg.svg" alt="icons" >
+                                <span class="celsius">C</span>
+                            </nav>
+                        <h1 class="weather-top__text">Clear</h1>
+                    </div>
+                </div>
+            </div>  
+            <div class="weather-bottom">
+                <ul class="weather-bottom__timeline">
+                    <li class="timeline">
+                        <span class="time" id="one">20:00</span>
+                        <img class="icons" src="/assets/icons/1.svg" alt="icons">
+                        <div class="timeline-celsius">
+                            <span class="celsius-number" id="oneNum">18</span>
+                            <img class="timeline-vector" src="/assets/icons/Vector.svg" alt="icons" >
+                            <p class="timeline-celc">C</p>
+                        </div>
+                    </li>
+                    <li class="timeline">
+                        <span class="time" id="two">21:00</span>
+                        <img class="icons" src="/assets/icons/1.svg" alt="icons">
+                        <div class="timeline-celsius">
+                            <span class="celsius-number" id="twoNum">17</span>
+                            <img class="timeline-vector" src="/assets/icons/Vector.svg" alt="icons" >
+                            <p class="timeline-celc">C</p>
+                        </div>
+                    </li>
+                    <li class="timeline">
+                        <span class="time" id="three">22:00</span>
+                        <img class="icons" src="/assets/icons/1.svg" alt="icons">
+                        <div class="timeline-celsius">
+                            <span class="celsius-number" id="threeNum">16</span>
+                            <img class="timeline-vector" src="/assets/icons/Vector.svg" alt="icons" >
+                            <p class="timeline-celc">C</p>
+                    </div>
+                </li>
+                <li class="timeline">
+                    <span class="time" id="four">23:00</span>
+                    <img class="icons" src="/assets/icons/1.svg" alt="icons">
+                    <div class="timeline-celsius">
+                        <span class="celsius-number" id="fiveNum">15</span>
+                        <img class="timeline-vector" src="/assets/icons/Vector.svg" alt="icons" >
+                        <p class="timeline-celc">C</p>
+                    </div>
+                </li>
+                <li class="timeline">
+                    <span class="time" id="five">00:00</span>
+                        <img class="icons" src="/assets/icons/1.svg" alt="icons">
+                        <div class="timeline-celsius">
+                        <span class="celsius-number" id="oneNum">14</span>
+                        <img class="timeline-vector" src="/assets/icons/Vector.svg" alt="icons" >
+                        <p class="timeline-celc">C</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="weather-bottom__details">
+                <img class="line" src="/assets/icons/Line 1.svg" alt="line">
+                <span class="details-text">Details</span>
+                <div class="details-grafic">
+                    <div class="grafic-left">
+                        <img class="left-icons" src="/assets/icons/Новая папка/Vector.svg" alt="icons" >
+                        <span class="left-time">06:44</span>
+                    </div>
+                    <div class="grafic-center">
+                        <img class="center-up" src="/assets/icons/Line 2.png" alt="line">
+                        <img class="center-bottom" src="/assets/icons/Line 3.svg" alt="line" >
+                    </div>
+                    <div class="grafic-right">
+                        <img class="right-icons" src="/assets/icons/Новая папка/bi_sunset.svg" alt="icons" >
+                        <span class="right-time">17:48</span>
+                    </div>
+                </div>
+                <div class="details-info">
+                    <div class="info-realfeel">
+                        <div class="realfeel-celsius">
+                            <span class="realfeel-number">18</span>
+                            <img class="realfeel-vector" src="/assets/icons/Vector.svg" alt="icons" >
+                            <span class="realfeel-bottom">C</span>
+                        </div>
+                        <span class="realfeel-text">RealFeel</span>
+                    </div>
+                    <div class="info-procent">
+                        <span class="procent-number">63%</span>
+                        <span class="procent-text">Humidity</span>
+                    </div>
+                    <div class="info-force">
+                        <span class="force-number">3</span>
+                        <span class="force-text">W, force</span>
+                    </div>
+                    <div class="info-pressure">
+                        <span class="pressure-number">1012hPa</span>
+                        <span class="pressure-text">Pressure</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
