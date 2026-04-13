@@ -19,3 +19,8 @@ A modern and stylish weather widget designed with a **Glassmorphism** aesthetic.
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/weather-app-widget.git](https://github.com/your-username/weather-app-widget.git)
+
+## 📸 Preview
+
+### Desktop
+![Desktop](assets/Desktop.png)
